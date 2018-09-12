@@ -10,5 +10,23 @@
     "release": true,
     "assets": "dist/*.min.js"
   },
-  "buildCommand": "npm run build"
+  "buildCommand": "npm run build",
+  "prompt": {
+    "src": {
+      "status": false,
+      "commit": true,
+      "tag": true,
+      "push": true,
+      "release": true,
+      "publish": false
+    },
+    "dist": {
+      "status": false,
+      "commit": true,
+      "tag": false,
+      "push": true,
+      "release": false,
+      "publish": false
+    }
+  }
 }
