@@ -1,0 +1,14 @@
+{
+  "pkgFiles": ["package.json"],
+  "requireUpstream": false,
+  "increment": "conventional:angular",
+  "beforeChangelogCommand": "conventional-changelog -p angular -i CHANGELOG.md -s",
+  "changelogCommand": "conventional-changelog -p angular | tail -n +3",
+  "requireCleanWorkingDir": false,
+  "safeBump": false,
+  "github": {
+    "release": true,
+    "assets": "dist/*.min.js"
+  },
+  "buildCommand": "npm run build"
+}
