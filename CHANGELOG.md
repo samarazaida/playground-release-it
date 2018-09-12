@@ -1,3 +1,11 @@
+<a name="0.6.0"></a>
+# [0.6.0](https://github.com/samarazaida/playground-release-it/compare/0.5.0...0.6.0) (2018-09-12)
+
+
+### Features
+
+* **main:** add alias methods
+
 <a name="0.5.0"></a>
 # [0.5.0](https://github.com/samarazaida/playground-release-it/compare/0.4.0...0.5.0) (2018-09-12)
 

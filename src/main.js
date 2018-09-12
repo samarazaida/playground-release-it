@@ -12,7 +12,11 @@ const divisao = (...args) => args.reduce((acc, cur, index) => (index === 0 ? acc
 
 export default {
   soma,
+  sum: soma,
   subtracao,
+  sub: subtracao,
   multiplicacao,
+  mult: multiplicacao,
   divisao,
+  div: divisao
 };
