@@ -1,4 +1,5 @@
 {
+  "non-interactive": true,
   "pkgFiles": ["package.json"],
   "requireUpstream": false,
   "increment": "conventional:angular",
@@ -13,19 +14,6 @@
   "buildCommand": "npm run build",
   "prompt": {
     "src": {
-      "status": false,
-      "commit": true,
-      "tag": true,
-      "push": true,
-      "release": true,
-      "publish": false
-    },
-    "dist": {
-      "status": false,
-      "commit": true,
-      "tag": false,
-      "push": true,
-      "release": false,
       "publish": false
     }
   }
