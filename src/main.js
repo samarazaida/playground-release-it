@@ -1,10 +1,22 @@
-const soma = (a, b) => a + b;
+const soma = (...args) =>
+  args.reduce((acc, cur) =>
+    acc + cur
+  , 0);
 
-const subtracao = (a, b) => a - b;
+const subtracao = (...args) =>
+  args.reduce((acc, cur, index) =>
+    index === 0 ? acc : acc - cur
+  , args[0]);
 
-const multiplicacao = (a, b) => a * b;
+const multiplicacao = (...args) =>
+  args.reduce((acc, cur, index) =>
+    index === 0 ? acc : acc * cur
+  , args[0]);
 
-const divisao = (a, b) => a / b;
+const divisao = (...args) =>
+  args.reduce((acc, cur, index) =>
+    index === 0 ? acc : acc / cur
+  , args[0]);
 
 export default {
   soma,
