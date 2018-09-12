@@ -13,7 +13,7 @@
     "dev": "rollup -c -w",
     "lint": "eslint src",
     "lint:fix": "eslint src --fix",
-    "release": "nodenv --exec release-it"
+    "release": "nodenv --exec release-it -- --no-increment"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",

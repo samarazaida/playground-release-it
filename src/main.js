@@ -18,5 +18,5 @@ export default {
   multiplicacao,
   mult: multiplicacao,
   divisao,
-  div: divisao
+  div: divisao,
 };
