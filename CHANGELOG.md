@@ -1,3 +1,13 @@
+<a name="0.4.0"></a>
+# [0.4.0](https://github.com/samarazaida/playground-release-it/compare/0.3.0...0.4.0) (2018-09-12)
+
+
+### Features
+
+* **main:** add multiplicacao method ([3f11d40](https://github.com/samarazaida/playground-release-it/commit/3f11d40))
+
+
+
 <a name="0.3.0"></a>
 # [0.3.0](https://github.com/samarazaida/playground-release-it/compare/0.2.0...0.3.0) (2018-09-12)
 
